@@ -10,15 +10,5 @@ class E03 {
         else if (x<0) {
             System.out.println("Negative number");
         }
-        
-        System.out.println("Enter a number: ");
-        int y = scanner.nextInt();
-        if (y>0) {
-            System.out.println("Positive number");
-        }
-        else if (y<0) {
-            System.out.println("Negative number");
-        }
-
     }
 }
