@@ -7,7 +7,7 @@ class E07 {
         System.out.println("Until which multiplyer?");
         int multiplyer = scanner.nextInt();
         for (int i = 1; i<=multiplyer; i++) {
-            System.out.println(i + " * " + x + " = " + (i*x));
+            System.out.println(i + " x " + x + " = " + (i*x));
         }
     }
 }
