@@ -4,7 +4,7 @@ class E02 {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Give a number: ");
         int x = scanner.nextInt();
-        System.out.println("Give another number: ");
+        System.out.println("Give a number: ");
         int y = scanner.nextInt();
         System.out.println(x + " + " + y + " = " + (x+y));
         System.out.println(x + " - " + y + " = " + (x-y));
