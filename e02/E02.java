@@ -7,8 +7,8 @@ class E02 {
         System.out.println("Give another number: ");
         int y = scanner.nextInt();
         System.out.println(x + " + " + y + " = " + (x+y));
-        System.out.println(x + " * " + y + " = " + (x*y));
         System.out.println(x + " - " + y + " = " + (x-y));
+        System.out.println(x + " * " + y + " = " + (x*y));
         System.out.println(x + " / " + y + " = " + (x/y));
     }
 }
