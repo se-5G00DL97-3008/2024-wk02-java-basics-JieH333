@@ -6,7 +6,7 @@ class E07 {
         int x = scanner.nextInt();
         System.out.println("Until which multiplier should the table show?");
         int multiplyer = scanner.nextInt();
-        for (int i = 1; i<=multiplyer; i++) {
+        for (int i = 0; i<=multiplyer; i++) {
             System.out.println(i + " x " + x + " = " + (i*x));
         }
     }
