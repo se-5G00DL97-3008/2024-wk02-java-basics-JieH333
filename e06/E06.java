@@ -6,7 +6,7 @@ class E06 {
         System.out.println("Which multiplication table to show?");
         int x = scanner.nextInt();
         for (int i = 0; i<=10; i++) {
-            System.out.println(i + " * " + x + " = " + (i*x));
+            System.out.println(i + " x " + x + " = " + (i*x));
         }
     }
 }
