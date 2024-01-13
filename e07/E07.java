@@ -2,9 +2,9 @@ import java.util.Scanner;
 class E07 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Which multiplicand multiplication table to show?");
+        System.out.println("Which multiplication table to show?");
         int x = scanner.nextInt();
-        System.out.println("Until which multiplyer?");
+        System.out.println("Until which multiplier should the table show?");
         int multiplyer = scanner.nextInt();
         for (int i = 1; i<=multiplyer; i++) {
             System.out.println(i + " x " + x + " = " + (i*x));
